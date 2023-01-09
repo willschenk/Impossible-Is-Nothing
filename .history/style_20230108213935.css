@@ -29,22 +29,22 @@ body {
     font-size: 55px;
     font-weight: 800;
     text-align: center;
-    color: rgb(255, 255, 255); 
+    color: rgb(1, 115, 255); 
     letter-spacing: -3px; 
-    background-color: #000000; /* red */
+    background-color: #ff0000; /* red */
+    border-radius: 5px; /* rounded corners */
   }
   
   
   
 
   #headlines { 
-    animation: scroll 1000s linear infinite; /* constant speed */
+    animation: scroll 300s linear infinite; 
     white-space: pre-line; 
     line-height: 0;
     font-family: 'Avant Garde Gothic', sans-serif;
     font-weight: medium; 
-    letter-spacing: -0.1px; 
-    
+    letter-spacing: -0.1px;
 
   } 
 

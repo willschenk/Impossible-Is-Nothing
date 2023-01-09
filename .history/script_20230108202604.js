@@ -1,8 +1,11 @@
 async function getHeadlines() {
   try {
     const response = await fetch('headlines.txt'); 
+    const response = await fetch('headlines.txt');
+
     const data = await response.text(); 
-    const modifiedData = data.replace(/\n/g, '\t\t\t\t\t\t\n');
+    const modifiedData = data.replace(/\n/g, '\t\n');
+
     const headlines = modifiedData.split(/[\n\s]/);
     
     headlines.forEach(headline => {

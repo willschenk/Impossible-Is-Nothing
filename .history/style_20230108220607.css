@@ -38,13 +38,12 @@ body {
   
 
   #headlines { 
-    animation: scroll 1000s linear infinite; /* constant speed */
+    animation: scroll 800s linear infinite; 
     white-space: pre-line; 
     line-height: 0;
     font-family: 'Avant Garde Gothic', sans-serif;
     font-weight: medium; 
-    letter-spacing: -0.1px; 
-    
+    letter-spacing: -0.1px;
 
   } 
 

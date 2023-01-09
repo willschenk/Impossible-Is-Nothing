@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Good News Headlines</title> 
+    <div id="background">impossible is nothing</div>
+    <img src="shoe.png" id="image">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body> 
+    <div id="headlines"></div> 
+    <script>headlines.forEach(headline => {
+        const headlineElement = document.createElement('p');
+        headlineElement.innerHTML = `${headline}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`;
+        headlineElement.style.marginLeft = `${Math.floor(Math.random() * 100)}%`;
+        document.getElementById('headlines').appendChild(headlineElement);
+      }); 
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

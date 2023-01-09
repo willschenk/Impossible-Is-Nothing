@@ -38,7 +38,7 @@ body {
   
 
   #headlines { 
-    animation: scroll 1000s linear infinite; /* constant speed */
+    animation: scroll 450s linaer infinite; 
     white-space: pre-line; 
     line-height: 0;
     font-family: 'Avant Garde Gothic', sans-serif;

@@ -11,40 +11,37 @@ body {
 
   
   #image {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 375px;
     max-width: none;
-  } 
-
+  }
   
   #background {
     font-family: 'Avant Garde Gothic', sans-serif;
-    position: fixed;
-    top: calc(50% + 180px); /* position element 375px below the center of the screen */
+    position: absolute;
+    top: calc(50% + 200px); /* position element 375px below the center of the screen */
     left: 50%;
     transform: translate(-50%, 0);
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 800;
     text-align: center;
-    color: rgb(255, 255, 255); 
-    letter-spacing: -3px; 
-    background-color: #000000; /* red */
+    color: rgb(65, 91, 164); 
+    letter-spacing: -3px;
   }
   
   
   
 
   #headlines { 
-    animation: scroll 1000s linear infinite; /* constant speed */
+    animation: scroll 300s linear infinite; 
     white-space: pre-line; 
     line-height: 0;
     font-family: 'Avant Garde Gothic', sans-serif;
     font-weight: medium; 
-    letter-spacing: -0.1px; 
-    
+    letter-spacing: -0.1px;
 
   } 
 
